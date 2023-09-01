@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nirmata-kube-controller.:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-08-31T23:29:16.220198-04:00"
+    description: A Helm chart for nirmata-kube-controller
+    digest: 682d3484c1fa57553174136671c294e8a5cad68bd1739b7a917da511551a97a0
+    name: nirmata-kube-controller.
+    type: application
+    urls:
+    - https://nirmata.github.io/nirmata-kube-controller-helm/nirmata-kube-controller.-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-31T23:29:16.2161991-04:00"
