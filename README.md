@@ -20,3 +20,4 @@ REVISION: 1
 TEST SUITE: None
 
 ```
+Login to NPM and verify that the cluster has been added and it is connected and is in ready state.
