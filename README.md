@@ -8,7 +8,7 @@ helm repo add nirmata-kube-controller https://nirmata.github.io/nirmata-kube-con
 helm repo update nirmata-kube-controller
 ```
 
-Once the repository is added, the cluster can be added to NPM by installing the helm chart.
+Once the repository is added, the cluster can be added to NPM by installing the helm chart. Make sure to have Nirmata API key handy before running the helm install command. 
 
 ```console
 helm install myNPMcluster nirmata-kube-controller/nirmata-kube-controller. --set cluster.name=mytestcluster --set apiToken="xxxxxxxxxxxxxxxx"
