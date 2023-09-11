@@ -12,7 +12,7 @@ Once the repository is added, the cluster can be added to NPM by installing the 
 
 ```console
 helm install myNPMcluster nirmata-kube-controller/nirmata-kube-controller. --set cluster.name=mytestcluster --set apiToken="xxxxxxxxxxxxxxxx"
-NAME: mycluster
+NAME: mytestcluster
 LAST DEPLOYED: Fri Sep  1 00:02:11 2023
 NAMESPACE: default
 STATUS: deployed
